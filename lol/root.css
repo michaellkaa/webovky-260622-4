@@ -1,0 +1,16 @@
+.dark-mode {
+    --first-color: #00071f;
+    --second-color: #f6f2ff;
+    --third-color: #82A6ED;
+    --fourth-color: rgb(200, 200, 200);
+    mask-image: url(logo-white_t.png);
+}
+
+:root {
+    --first-color: #F3f4FC;
+    --second-color: rgb(9, 9, 9);
+    --third-color: #561790;
+    --fourth-color: rgb(108, 108, 108);
+    mask-image: url(logo-black_b.png);
+}
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home <3</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="root.css">
+    <link rel="icon" href="home.svg" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body onload="loader()">
+    <div class="load" id="loader">
+      <img src="logo-black_b.png" id="load-logo">
+    </div>
+    <span style="display:none;" id="home" class="homepage">
+
+    <header>
+    
+    <div class="navigace">
+    
+<nav>
+    
+    <img src="logo-black_b.png" id="logo" class="invert">
+    <a href="" onclick="changeColorMode()" id="dark-mode">dark</a>
+    <a href="#home">home</a>
+    <a href="#about">about</a>
+    <a href="#kontakt">contact</a>
+
+</nav>
+</div >
+</header>
+
+<div class="introduce" >
+<h1>Michaelka</h1>
+<p>vývojář a grafik</p> 
+</div>
+
+<div class="about" id="about">
+
+<h4>ABOUT</h4>
+
+<div data-aos="fade-up" data-aos-duration="2000">
+<span class="span about">
+<p> Jsem Michaela Ptáčková, je mi 14 let a hlásím se na Creative Hill College. Mým cílem je obor Multimédia a grafický design, ale chci pokračovat i v tvorbě webových stránek, se kterou jsem začala začátkem roku 2022.</p> 
+<p>Mimo tvorbu webovek se zajímám o umění, což zahrnuje grafický design, hudbu, hru na klávesy, flétnu a kytaru, a taky knihy a poezii.</p>
+</div>
+<h6>Škola</h6>
+<div data-aos="fade-up" data-aos-duration="2000">
+<p>Ohledně volného času v rámci školy dělám olympiády z češtiny, angličtiny, fyziky, matematiky, chemie a taky dělám literární soutěže.</p>
+<p>Také mám v plánu psát knihu na téma lgbt, blm a suicide awarness.</p>
+</div>
+<h6>Influence</h6>
+<div data-aos="fade-up" data-aos-duration="2000">
+<p>Mými největšími vzory ohledně umění jsou lidi z okolí, lidé se kterými si můžu promluvit o daném tématu.
+Také se ale inspiruji na sociálních sítích jako je twitter, instagram a jiné.
+</p>
+<p>Pokud vás zajímají mé práce tak je najdete v mém <a href="">portfoliu</a>.</p>
+</div>
+</span>
+
+</div>
+<div class="kontakt" id="kontakt">
+    <footer>
+        <a href="mailto:michaela.ptackova.mp@gmail.com">michaela.ptackova.mp@gmail.com</a>
+        <a href="tel:+420 773 759 405">773759405</a>
+        <a href="http://www.instagram.com/michaelka.__/" target="_blank" > @michaelka.__</a>
+        <a href="https://www.instagram.com/real_michaelka/" target="_blank" > @real_michaelka</a>
+        <a href="https://www.instagram.com/michaelka_a_fotecky/" target="_blank" > @michaelka_a_fotecky</a>
+        <p>@Michaelka 2022</p>
+    </footer>
+</div>
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+  <script>
+  
+    var timer;
+    function loader() {
+        timer = setTimeout(showPage, 1100);
+    }
+    function showPage() {
+        document.getElementById("load-logo").style.display = "none";
+        
+        document.getElementById("home").style.display = "block";
+    }
+</script>
+</body>
+</html>
